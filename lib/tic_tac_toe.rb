@@ -50,6 +50,7 @@ def valid_move?(board, index)
 end
 
 #This asks users to pick their move and if they don't the program will continue to wait or if taken will varify if the move can be made
+
 def turn(board)
   puts "Please enter 1-9:"
     input = gets.strip
