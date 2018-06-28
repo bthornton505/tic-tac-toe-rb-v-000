@@ -146,7 +146,6 @@ def play(board)
     elsif draw?(board)
       puts "Cat's Game!"
     end 
-    turn(board)
   end 
   
   until over?(board)
