@@ -122,7 +122,6 @@ def over?(board)
   if won?(board) || full?(board) || draw?(board) 
     return true 
   end 
-  false 
 end 
 
 #This checks to see if X or O has won the game and tells us who is the winner
