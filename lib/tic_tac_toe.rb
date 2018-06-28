@@ -150,5 +150,5 @@ def play(board)
     puts "Cat's Game!"
   end 
 end 
-end 
-  
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+play(board)
