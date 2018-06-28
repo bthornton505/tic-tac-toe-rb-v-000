@@ -40,6 +40,9 @@ end
 def valid_move?(board, index)
   if position_taken?(board, index) 
     false
+    
+  elsif index < 0 
+    false 
   
   elsif board[index] == " "
     true 
