@@ -138,7 +138,7 @@ def winner(board)
   winner 
 end 
 
-
+#This is my play method. Currently sloppy code. Find a way to make small inner method to clean it up. 
 def play(board)
   
     if winner(board)
